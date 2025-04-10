@@ -194,6 +194,7 @@
 				722CA6ED241792840022043F /* Frameworks */,
 				722CA6EE241792840022043F /* Resources */,
 				53CC3608EC2EFED37F6863B7 /* [CP] Embed Pods Frameworks */,
+				1ABB377FD406E3A75989971B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +256,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1ABB377FD406E3A75989971B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaboolaSDKExampleSwift/Pods-TaboolaSDKExampleSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaboolaSDKExampleSwift/Pods-TaboolaSDKExampleSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaboolaSDKExampleSwift/Pods-TaboolaSDKExampleSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		511CED58C855A6A57F4760EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,7 +479,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZZMSXYL4ND;
+				DEVELOPMENT_TEAM = 9WR4HSZD3V;
 				INFOPLIST_FILE = "$(SRCROOT)/TaboolaSDKExampleSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,7 +502,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZZMSXYL4ND;
+				DEVELOPMENT_TEAM = 9WR4HSZD3V;
 				INFOPLIST_FILE = "$(SRCROOT)/TaboolaSDKExampleSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
